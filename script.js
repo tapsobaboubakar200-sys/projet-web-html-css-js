@@ -1,4 +1,4 @@
-// ==================== VALIDATION FORMULAIRE ====================
+//  VALIDATION FORMULAIRE 
 const form = document.querySelector('form');
 const nom = document.getElementById('nom');
 const email = document.getElementById('email');
@@ -34,7 +34,7 @@ form.addEventListener('submit', function(e) {
   }
 });
 
-// ==================== BOUTON RETOUR EN HAUT ====================
+//  BOUTON RETOUR EN HAUT 
 const backToTop = document.createElement('button');
 backToTop.textContent = "↑ Retour en haut";
 backToTop.id = "backToTop";
@@ -62,7 +62,7 @@ window.addEventListener('scroll', () => {
   }
 });
 
-// ==================== CHANGER LE THEME ====================
+//  CHANGER LE THEME 
 const themeButton = document.createElement('button');
 themeButton.textContent = "Changer thème";
 themeButton.id = "themeButton";
