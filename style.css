@@ -1,4 +1,4 @@
-/* ==================== STYLES GLOBAUX ==================== */
+/*  STYLES GLOBAUX  */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -19,7 +19,7 @@ section {
   text-align: center;
 }
 
-/* ==================== HEADER ==================== */
+/*  HEADER  */
 header {
   background-color: #2c3e50;
   color: white;
@@ -51,7 +51,7 @@ nav a:hover {
   background-color: #1abc9c;
 }
 
-/* ==================== BANNIÈRE (HERO) ==================== */
+/*  BANNIÈRE (HERO)  */
 #hero {
   background: url("images/image8.jpeg") no-repeat center center/cover;
   color: white;
@@ -62,16 +62,16 @@ nav a:hover {
 #hero h2 {
   font-size: 2.5em;
   margin-bottom: 10px;
-  color: #e74c3c; /* 🔴 Rouge vif pour le titre */
+  color: #e74c3c; /*  Rouge vif pour le titre */
 }
 
 #hero p {
   font-size: 1.2em;
-  color: #e74c3c; /* 🔴 Rouge vif */
+  color: #e74c3c; /*  Rouge vif */
   font-weight: bold; /* ✅ Gras pour la phrase */
 }
 
-/* ==================== À PROPOS ==================== */
+/*  À PROPOS  */
 #about img {
   max-width: 400px;
   width: 100%;
@@ -80,7 +80,7 @@ nav a:hover {
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-/* ==================== PRODUITS ==================== */
+/*  PRODUITS  */
 #produits {
   background-color: #fff;
 }
@@ -112,7 +112,7 @@ nav a:hover {
   margin-bottom: 10px;
 }
 
-/* ==================== FORMULAIRE CONTACT ==================== */
+/*  FORMULAIRE CONTACT  */
 form {
   max-width: 500px;
   margin: auto;
@@ -153,7 +153,7 @@ form button:hover {
   background-color: #16a085;
 }
 
-/* ==================== PIED DE PAGE ==================== */
+/*  PIED DE PAGE  */
 footer {
   background-color: #2c3e50;
   color: white;
@@ -162,7 +162,7 @@ footer {
   margin-top: 20px;
 }
 
-/* ==================== RESPONSIVE ==================== */
+/*  RESPONSIVE  */
 @media (max-width: 768px) {
   #produits div {
     width: 90%;
@@ -219,7 +219,7 @@ body.dark-theme form textarea {
   color: white;
   border: 1px solid #555;
 }
-/* ==================== COORDONNÉES CONTACT ==================== */
+/*  COORDONNÉES CONTACT  */
 .contact-info {
   margin-bottom: 20px;
   background: #f4f4f4;
